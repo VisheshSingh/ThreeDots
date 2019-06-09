@@ -10,6 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
 header {
   display: flex;
   width: 90%;
@@ -78,6 +82,31 @@ nav {
   margin-top: 5px;
   font-size: 22px;
   color: #585782;
+}
+
+.cta {
+  margin: 50px 0 0 0;
+}
+
+.cta-select {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #c36cbb;
+  color: #c36cbb;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta-add {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #c36cbb;
+  color: #fff;
+  background: #c36cbb;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 0 0 30px;
 }
 
 .cover {
