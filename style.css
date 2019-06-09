@@ -9,3 +9,26 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+}
+
+.logo-container {
+  background: palegreen;
+  flex: 1;
+}
+
+nav {
+  background: palevioletred;
+  flex: 2;
+}
+
+.cart {
+  background: palegoldenrod;
+  flex: 1;
+}
